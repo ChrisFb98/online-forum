@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container {
+  width: 1400px;
+  height: 850px;
+  position: relative;
+  background: url(../img/ellipse.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 910px 400px;
+  background-color: #2b2d38;
+  padding: 40px 90px;
+  font-family: "Poppins", sans-serif;
+}
+
+.background {
+  position: absolute;
+  scale: 0.9;
+  z-index: 0;
+  bottom: -90px;
+  right: -60px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  column-gap: 40px;
+}
+
+.menu a {
+  color: #ababab;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #db2a6b;
+  text-underline-offset: 8px;
+}
+
+.logo {
+  margin-right: 500px;
+}
+
+.semicontainer {
+  display: flex;
+}
+
+.hero-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  font-family: "Merriweather", serif;
+  margin-top: 130px;
+  width: 570px;
+}
+
+.hero-description {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ababab;
+  width: 548px;
+  line-height: 1.5;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.get-started {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  align-items: center;
+  width: 240px;
+  height: 60px;
+  color: white;
+  background-color: #db2a6b;
+  padding: 30px 10px;
+  border-radius: 16px 16px 16px 0;
+  border: none;
+  margin-right: 40px;
+}
+
+.learn-more {
+  color: white;
+  font-size: 18px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: #ababab;
+}
+
+.perks {
+  display: flex;
+  column-gap: 20px;
+}
+
+.perks article {
+  display: flex;
+  column-gap: 15px;
+  color: white;
+  width: 180px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+  grid-template-rows: repeat(100, 20px);
+  margin-top: 80px;
+  
+  z-index: 1;
+  padding-left: 50px;
+}
+
+.gallery img{
+  scale: 0.8;
+}
+
+.person1 {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+}
+
+.person2 {
+  grid-column: 1 / span 1;
+  grid-row: 26 / span 1;
+  margin-top: -45px;
+}
+
+.person3 {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  padding-top: 30px;
+}
+
+.person4 {
+  grid-column: 2 / span 1;
+  grid-row: 14 / span 1;
+  margin-top: -40px;
+  
+}
+
+.person5 {
+  grid-column: 3 / span 1;
+  grid-row: 5 / span 2;
+}
